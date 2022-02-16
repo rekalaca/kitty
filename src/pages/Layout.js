@@ -6,16 +6,13 @@ const Layout = () => {
       <nav>
         <ul>
           <li>
-            <Link to="/">Főoldal</Link>
+            <Link to="/">Négyzetre emel</Link>
           </li>
           <li>
-            <Link to="/Kittys">1. feladat</Link>
+            <Link to="/Beker">Normál Háromszögek</Link>
           </li>
           <li>
-            <Link to="/Nemes">2. feladat</Link>
-          </li>
-          <li>
-            <Link to="/Cars">3. feladat</Link>
+            <Link to="/Derharomszog">Derékszögű Háromszög</Link>
           </li>
         </ul>
       </nav>

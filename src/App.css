@@ -1,65 +1,90 @@
-body {
-  background-color: bisque;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-#folap {
+.App {
   text-align: center;
 }
 
-#leiras {
-  text-align: justify;
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+table{
+  border: 1px solid blue;
   width: 500px;
+  text-align: center;
   margin: 0 auto 0 auto;
 }
-
-h1 {
-  color: darkblue;
-  text-align: center;
-}
-
-.magenta {
-  background-color: magenta;
-  color: white;
-}
-
-.blue {
-  background-color: blue;
-  color: white;
-}
-
-tr,
-td {
-  width: 300px;
+th{
   border: 1px solid red;
 }
-
-th {
-  border: 1px solid black;
-  background-color: lightblue;
+td{
+  border: 1px solid blue;
 }
-
-#kiir {
-  margin-top: 40px;
+body{
+  background-color: lightgreen;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-button {
-  margin-top: 10px;
-  background-color: green;
-  border-radius: 20px;
-  color: white;
-}
-
-.hibas {
-  color: white;
-}
-
-#hibalap {
+h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
-  background-color: red;
-  height: 150px;
+  color: brown;
 }
-
-#hibas {
-  background-color: white;
+#haromszog{
+  text-align: center;
+}
+#harom{
+  margin-top: 30px;
+}
+tr, td{
+  width: 200px;
+  background-color: lightcoral;
+  border: 2px solid black;
+  text-align: center;
+}
+th{
+  background-color: lightseagreen;
+}
+h2{
+  color: blue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#hiba{
+  text-align: center;
+  background-color: aliceblue;
+}
+button{
+  text-align: center;
+  background-color: lightcoral
+}
+#tablas{
+  text-align: center;
 }
